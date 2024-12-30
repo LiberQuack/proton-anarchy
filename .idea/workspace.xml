@@ -4,7 +4,6 @@
     <list default="true" id="af40a2da-6811-4294-a009-6f97f81d48e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/remote-install.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,22 +13,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LiberQuack"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiberQuack&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:LiberQuack/proton-anarchy.git",
-    "accountId": "f4a3dcae-878d-4429-ac5c-7cd7de71b58c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:LiberQuack/proton-anarchy.git&quot;,
+    &quot;accountId&quot;: &quot;f4a3dcae-878d-4429-ac5c-7cd7de71b58c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2qwlZEeKrv5HTn2O1W9RcjP90Ez" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +42,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/quack/projects/service-authx",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -69,9 +69,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735581572573</updated>
-      <workItem from="1735581574263" duration="5418000" />
+      <workItem from="1735581574263" duration="5598000" />
+      <workItem from="1735588104064" duration="10000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -12,6 +12,7 @@ Run the script below
 sudo mkdir -p /var/games/proton-anarchy
 sudo chmod 777 /var/games/proton-anarchy
 git clone git@github.com:LiberQuack/proton-anarchy.git /var/games/proton-anarchy --depth=1
+chmod +x /var/games/proton-anarchy/bin/*
 cat <<'EOF' >> ~/.profile
 
 ##################
@@ -20,6 +21,7 @@ cat <<'EOF' >> ~/.profile
 export PATH="$PATH:/var/games/proton-anarchy/bin"
 
 EOF
+echo 'source ~/.profile' >> ~/.config/plasma-workspace/env/profile.sh
 
 echo "Success!!!"
 echo "please logout and login again"
