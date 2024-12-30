@@ -10,7 +10,7 @@ else
     SCRIPT_PATH="$0"
 fi
 
-PROTON_FOLDER="$(dirname "$(readlink -f "$SCRIPT_PATH")")"
+PROTON_FOLDER="$(realpath "$(dirname "$(readlink -f "$SCRIPT_PATH")")/..")"
 echo "Your proton scripts are located at $PROTON_FOLDER"
 
 export STEAM_DIR="$HOME/.steam/root"

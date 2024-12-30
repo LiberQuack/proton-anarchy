@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af40a2da-6811-4294-a009-6f97f81d48e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/proton-anachy-update.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/proton-setup-variables.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/proton-setup-variables.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735581572573</updated>
       <workItem from="1735581574263" duration="5598000" />
-      <workItem from="1735588104064" duration="454000" />
+      <workItem from="1735588104064" duration="1281000" />
     </task>
     <servers />
   </component>
