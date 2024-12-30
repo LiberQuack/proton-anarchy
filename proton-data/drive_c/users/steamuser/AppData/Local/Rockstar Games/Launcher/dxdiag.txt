@@ -1,0 +1,18 @@
+------------------
+System Information
+------------------
+Time of this report: 7/9/2024, 19:45:44
+       Machine name: CACHYOS
+   Operating System: Windows XP Professional
+           Language: English (Regional Setting: English)
+System Manufacturer: 
+       System Model: 
+               BIOS: 
+          Processor: AMD Ryzen 7 6800U with Radeon Graphics(16 CPUs), ~4768MHz
+             Memory: 15605MB RAM
+          Page File: 11444MB used, 36519MB available
+        Windows Dir: C:\windows
+    DirectX Version: DirectX 12
+DX Setup Parameters: Not present
+     DxDiag Version: 
+

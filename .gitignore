@@ -3,12 +3,16 @@
 *.cache.write
 *.ini
 
+proton-data/*
+!/proton-data/drive_c
+
+proton-data/drive_c/*
+!/proton-data/drive_c/users
+
+proton-data/drive_c/users/steamuser/Temp
+
 ############
 # Temporary
 ############
-proton-data-old
-users
-
-/proton-data/
-!/proton-data/drive_c/users/
-
+/proton-data-old
+/users

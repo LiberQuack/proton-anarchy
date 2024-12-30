@@ -2,16 +2,519 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af40a2da-6811-4294-a009-6f97f81d48e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Proton.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/quack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Aspyr/Guitar Hero III/AspyrConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/_metadata/verified_contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/_platform_specific/win_x64/widevinecdm.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/_platform_specific/win_x64/widevinecdm.dll.sig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/manifest.fingerprint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/CEF/User Data/WidevineCdm/4.10.2710.0/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Aug2009_d3dcsx_42_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Aug2009_d3dcsx_42_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Dec2006_d3dx10_00_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Dec2006_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Jun2008_xaudio_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/Jun2010_d3dcsx_43_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/MDX_1.0.2906.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/MDX_1.0.2910.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTk45WiKdPUwcMf8JgMC07ACYqr2AQUt2ui6qiqhIx56rTaD5iyxZV2ufQCEApQYKEVlLIbuh4w%2FTiFsnE%3D[0]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/M9Q988QJ/dxupdate[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/Apr2006_MDX1_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/Apr2007_xinput_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/Aug2006_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/Dec2006_d3dx10_00_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/Feb2007_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/MDX_1.0.2905.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/QH4MBRM4/MDX_1.0.2907.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Apr2006_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Apr2007_xinput_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Jun2006_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Jun2006_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Jun2007_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Jun2008_xaudio_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/MDX_1.0.2909.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAbY2QTVWENG9oovp1QifsQ%3D[0]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Nov2007_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/UPIZEBHP/Nov2007_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/Apr2006_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/Aug2006_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/Dec2006_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/Feb2007_xact_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/Jun2007_xact_x64[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/MDX_1.0.2902.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/MDX_1.0.2903.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/MDX_1.0.2904.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/YXWCHUDB/MDX_1.0.2908.0_x86[1]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCache/Content.IE5/index.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Microsoft/Windows/INetCookies/index.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/CrashLogs/metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/CrashLogs/settings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/dxdiag.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/firstrun.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/manifest_launcher_dev_624.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/prelauncher_events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/Rockstar Games/Launcher/settings_user.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Local/openvr/openvrpaths.vrpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/LocalLow/Microsoft/CryptnetUrlCache/Content/48b564a4f52abd69f58f4590df81b058ca7abe5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/LocalLow/Microsoft/CryptnetUrlCache/Content/944b530599fcd50d3f54f7f76aa588e9429110be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/.1911/1466860/achievement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/.1911/1466860/stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/FLT/steam_id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/546560/remote/user.vcfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/546560/remote/user_keys.vcfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/546560/remote/user_keys_vr.vcfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/546560/remote/user_vr.vcfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/546560/remote/voice_ban.dt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/settings/account_name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/settings/language.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/settings/listen_port.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Goldberg SteamEmu Saves/settings/user_steam_id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Guerrilla Games/Horizon Forbidden West Complete Edition/UserHashDB.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Guerrilla Games/Horizon Forbidden West Complete Edition/crs/metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Guerrilla Games/Horizon Forbidden West Complete Edition/crs/reports/990cf352-8a76-4850-88b4-2e6443d51cd4.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Guerrilla Games/Horizon Forbidden West Complete Edition/crs/settings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/ARPPRODUCTICON.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/NewShortcut2_0CE1A6C0F3F749E68F9D2431F9827441.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/NewShortcut3_0CE1A6C0F3F749E68F9D2431F9827441.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/NewShortcut4_0CE1A6C0F3F749E68F9D2431F9827441.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/NewShortcut5_0CE1A6C0F3F749E68F9D2431F9827441.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Installer/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/UNINST_Uninstall_G_0CE1A6C0F3F749E68F9D2431F9827441_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Epic Games Launcher.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Rockstar Games/Rockstar Games Launcher.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Sekiro/76561197960267366/S0000.sl2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Sekiro/76561197960267366/S0000.sl2.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/AppData/Roaming/Sekiro/GraphicsConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Application Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Desktop/Epic Games Launcher.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Desktop/Rockstar Games Launcher.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Aspyr/Guitar Hero III/Save/Progress}{Progress/s000.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Aspyr/Guitar Hero III/Save/Progress}{Progress/toc.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/autosave0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/autosave1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/autosave2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/autosave3.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/autosave4.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/courtesysave0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/courtesysave1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/courtesysave2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/courtesysave3.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/courtesysave4.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/manualsave0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/preencountersave0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/profile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/quicksave0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/quicksave1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/quicksave2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/quicksave3.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/76561199205427030/quicksave4.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/Horizon Forbidden West Complete Edition-v1.0.38.0 2024-10-13-04-33-31.mdmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/Horizon Forbidden West Complete Edition-v1.0.38.0 2024-10-13-14-52-38.mdmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Horizon Forbidden West Complete Edition/Horizon Forbidden West Complete Edition-v1.0.38.0 2024-10-28-01-10-14.mdmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Launcher/Profiles/2503174E/profiletitles.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Launcher/Profiles/2503174E/settings_account.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Cache/Images/AvatarCache/cache.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Cache/Images/AvatarCache/default_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Cache/browser_cache_settings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00001f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000023" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_00002f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/f_000030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cache/Cache_Data/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/0b2fa8dde2fe7b1e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/0f58c0039d636ba4_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/110fe34c23eab988_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/141fcd9f904403f4_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/21e1f0703880f382_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/28e9e01edab05293_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/29227ba6f6c8f96f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/2fb005139651ef7f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/3315cf4ac5b18145_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/3621d9b140eabd79_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/3d3318eda438aba7_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/4780e43d5456fded_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/4e03bf3137cfbd27_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/4ea36ae3ba649cb5_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/516cf7baadd4114f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/52b755c94b15f01d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/52f7549f8449a155_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/58465a28e8ae45e8_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/68e6e126d49408e3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/73544872c811fe1d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/771cb39b0e1d549f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/7e5efb8cc5d1db77_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/89e7ff0b3453ee1b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/8efebfa81c096055_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/977408c633593758_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/9abf0a4d11de0681_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/ac2c1d95d501d944_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/b9e6930eb9ce3bd5_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/c84ef94693a30612_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/d0bebd74d6ec2f9c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/db2dd8a154ebdf45_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/ea5c9f7ab32d2df3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/f051631e54b2e86d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/f671a9f2936420e6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/f981585faa55232e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/wasm/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Cookies-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/DawnCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/DawnCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/DawnCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/DawnCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/DawnCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/GPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/GPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/GPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/GPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/GPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Local Storage/leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Local Storage/leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Local Storage/leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/LocalPrefs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Network Persistent State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Reporting and NEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Reporting and NEL-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/01f50586b1d1705a_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/1aeb4bb7fa4877d3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/2070bf5a19b23460_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/20fa438755867bb1_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/310025e7bb081674_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/330bb22ab5f4f174_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/50f0e54dbe0cb2d0_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/534cdd0a03056623_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/5e18133063281d99_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/5f248e990eb72a5c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/654c89dea236336c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/76a6f8737a08dd14_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/87a5c7171cb3918e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/8e9a2478811b9649_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/9417c3493bd429ef_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/9dcec879799f9659_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/aaeaacce5f6cffdc_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/ac37b8f131521289_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/b16d938ce149797b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/b8412c45379c8354_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/eb7f64943ff257a2_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/ed06c3660d189a12_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/f278b37807f01046_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/f37e1dbc892da46f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/fec513f5ce2d1940_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/476651c5-259e-497e-955f-0f288b10cf28/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/CacheStorage/7c129e28a53a20755871f994f1997209760a9724/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/Database/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/Database/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/Database/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/Database/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/ScriptCache/2cc80dabc69f58b6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/ScriptCache/4cb013792b196a35_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/ScriptCache/4cb013792b196a35_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/ScriptCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Service Worker/ScriptCache/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Session Storage/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Session Storage/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Session Storage/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/TransportSecurity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/Visited Links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/WebStorage/QuotaManager" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/WebStorage/QuotaManager-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/databases/Databases.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Launcher/Renderer/databases/Databases.db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Profiles/2503174E/profile.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Documents/Rockstar Games/Social Club/Profiles/autosignin.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Local Settings/Application Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/My Documents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/GOWRSAVE9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War Ragnarök/6144/userpreferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Saved Games/God of War/6300451/game.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x64 Redistributable Setup_20240823_191949681-MSI_vc_red.msi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x64 Redistributable Setup_20240823_191949681.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x64 Redistributable Setup_20241011_142456247.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x86 Redistributable Setup_20240823_191940319-MSI_vc_red.msi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x86 Redistributable Setup_20240823_191940319.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/Microsoft Visual C++ 2010  x86 Redistributable Setup_20241011_142449547.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/TFRc9d.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/drm_dialogs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/drm_dyndata_7330017.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/070b1fd49559ee1236e8eeecd6907fad-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/168f45a4137bcb3df80e96b6bd2f1eec-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/2d724a6434179399d30d1ea7459bb105-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/3a1a569bd1ef64859e377e85951fb968-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/41a2a92b5a5d65149fdc2862bc82c0ed-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/4867ce0d16051f81a63f01af061f11d9-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/4b5b248a489c01e0e0501e63aee36eb6-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/6891d854cca984ad82d96bca68083ee7-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/74170fff139a6709ecdcac956e9e0f3a-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/7a1a56f050133d955fdb486498ecd7ff-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/7d2dab7d9b8c99d845d0307415760b37-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/7ea61292540278558a6d8a6a762b4016-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/7f4fe4527599bfe23e48a4cd5cc5e5f0-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/84cd1470ae1b265d279e12e229662041-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/8855e6ff3f0515a1cbe6f7965d184565-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/a4a680681ea3d2401ee8bc2ffb825d75-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/a84d0c429dbc3e915a8eabeb481ffd4c-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/c4375dab45ea0d7181b8f7e9ec55ccbc-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/c8a882327b23488fd8ae2b479a67255e-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/fontconfig/cache/d13cf9d924f920f0d9045059651cc083-le64.cache-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-EJ2MV.tmp/setup.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/BASS.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/CLS-srep.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/CallbackCtrl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/FlushFileCache.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/ISDone.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/MpzSlimmer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/MusicButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/_Redist/builder.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/_isetup/_setup64.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/_isetup/_shfoldr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/botva2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/bsc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-lollypop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-lollypop_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-lollypop_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2l.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2l_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-magic2l_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-srep_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/cls-srep_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/dstorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/dstoragecore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/facompress.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/gdeflate.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/host.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/hosts.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/idp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/innocallback.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/liblz4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/mpz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/precomp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/precomp_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/records.inf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/rz-1.03.7-stdio.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/rz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/rzw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/unarc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/vc_redist.x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/vc_redist.x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/wintb.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/work/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/work/fgpack.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/work/run.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/work/x.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/xdelta3_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-GSCKP.tmp/xtool.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-L2D9U.tmp/setup.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/BASS.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/CLS-srep.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/CallbackCtrl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/FlushFileCache.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/ISDone.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/MpzSlimmer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/MusicButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/_Redist/builder.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/_isetup/_setup64.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/_isetup/_shfoldr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/botva2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/bsc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-lollypop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-lollypop_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-lollypop_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2l.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2l_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-magic2l_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-srep_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/cls-srep_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/dstorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/dstoragecore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/facompress.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/gdeflate.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/host.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/hosts.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/idp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/innocallback.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/liblz4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/mpz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/precomp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/precomp_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/records.inf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/rz-1.03.7-stdio.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/rz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/rzw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/unarc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/vc_redist.x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/vc_redist.x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/wintb.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/work/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/work/fgpack.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/work/run.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/work/x.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/xdelta3_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-OB034.tmp/xtool.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/BASS.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/CLS-srep.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/CallbackCtrl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/FlushFileCache.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/ISDone.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/MpzSlimmer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/MusicButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/_Redist/builder.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/_isetup/_setup64.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/_isetup/_shfoldr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/botva2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/bsc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-lollypop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-lollypop_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-lollypop_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2l.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2l_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-magic2l_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-srep_x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/cls-srep_x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/dstorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/dstoragecore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/facompress.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/gdeflate.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/host.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/hosts.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/idp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/innocallback.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/liblz4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/mpz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/precomp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/precomp_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/records.inf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/rz-1.03.7-stdio.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/rz.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/rzw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/unarc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/vc_redist.x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/vc_redist.x86.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/wintb.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/work/Made by FitGirl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/work/fgpack.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/work/run.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/work/x.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/xdelta3_dll.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-T8B5T.tmp/xtool.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/is-UDJFS.tmp/setup.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-0/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-0/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-1/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-1/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-2/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-2/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-3/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-3/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-4/CustomActionManaged.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/msidb67.tmp-4/Microsoft.Deployment.WindowsInstaller.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/temp.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/APR2007_xinput_x64.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/APR2007_xinput_x86.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/AUG2007_d3dx9_35_x64.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/AUG2007_d3dx9_35_x86.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/DSETUP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/DXSETUP.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/DirectX EULA.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/FirewallInstallHelper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/Microsoft Common Controller 32bit.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/Microsoft Common Controller 64bit.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/dsetup32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/dxdllreg_x86.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/dxnt.cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proton-data/drive_c/users/steamuser/Temp/{0CE1A6C0-F3F7-49E6-8F9D-2431F9827441}/dxupdate.cab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.proton-run.sh.kate-swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proton-last-run.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proton-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/proton-run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proton-steam-add-game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/proton-steam-add-game.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +574,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735581572573</updated>
-      <workItem from="1735581574263" duration="1838000" />
+      <workItem from="1735581574263" duration="2240000" />
     </task>
     <servers />
   </component>
