@@ -26,3 +26,8 @@ echo 'source ~/.profile' >> ~/.config/plasma-workspace/env/profile.sh
 echo "Success!!!"
 echo "please logout and login again"
 ```
+
+## Update
+```bash
+
+```
