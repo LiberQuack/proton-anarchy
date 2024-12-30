@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 SCRIPT_PATH=$(readlink -f "$0")
 SCRIPT_DIR=$(realpath "$(dirname "$SCRIPT_PATH")")
@@ -18,24 +19,31 @@ fi
 
 echo "Adding non steam game $EXECUTABLE"
 EXECUTABLE_DIR="$(realpath "$(dirname "$EXECUTABLE")")"
+EXECUTABLE_DIR="$(zenity --entry --title="Game directory" --entry-text "$EXECUTABLE_DIR")"
 EXECUTABLE_RELATIVE=$(realpath --relative-to="$EXECUTABLE_DIR" "$EXECUTABLE")
-GAME_NAME="${GAME_NAME:-$(zenity --entry --title="Game Name" --entry-text "$EXECUTABLE_DIR/$EXECUTABLE_RELATIVE")}"
+GAME_NAME="${GAME_NAME:-$(zenity --entry --title="Game Name" --entry-text "$(basename "$EXECUTABLE_DIR")")}"
 
-if ! [[ "$var" == *.game.sh ]]; then
-echo "Creating launcher script... $EXECUTABLE_DIR/.game.sh"
-cat <<EOF > "$EXECUTABLE_DIR/.game.sh"
-#!/bin/bash
-#$GAME_NAME
-PATH="$(echo '$PATH:$HOME/.local/bin')"
-proton-run.sh '$EXECUTABLE_RELATIVE' &> .game.sh.log
+echo "#### Creating .desktop file"
+GAME_NAME_SANITIZED=$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+DESKTOP_FILE="$EXECUTABLE_DIR/$GAME_NAME_SANITIZED.desktop"
+cat <<EOF > "$DESKTOP_FILE"
+[Desktop Entry]
+Name=$GAME_NAME
+Exec="$SCRIPT_DIR/proton-run.sh" "$EXECUTABLE_RELATIVE"
+Path=$EXECUTABLE_DIR
+Icon=application-x-executable
+Type=Application
+Terminal=false
+Categories=Game;
 EOF
-chmod +x "$EXECUTABLE_DIR/.game.sh"
-fi
+chmod +x "$DESKTOP_FILE"
+ln -s "$DESKTOP_FILE" "$HOME/Desktop/${GAME_NAME_SANITIZED}.desktop"
+echo "#### Created .desktop and linked it to $HOME/Desktop/${GAME_NAME_SANITIZED}.desktop"
 
 sed -i 's/^SGDBAPIKEY=.*/SGDBAPIKEY=51b7657fd30db6d19d7572b45ae451c7/' ~/.config/steamtinkerlaunch/global.conf
 steamtinkerlaunch addnonsteamgame --use-steamgriddbb --auto-artwork \
     --appname="$GAME_NAME" \
-    --exepath="$EXECUTABLE_DIR/.game.sh" \
+    --exepath="$DESKTOP_FILE" \
     --tags="STANDALONE" \
     --steamgriddb-game-name="$GAME_NAME" \
     -lo="STEAM_COMPAT_MOUNTS=\"\$STEAM_COMPAT_MOUNTS:$SCRIPT_DIR:$(realpath "$EXECUTABLE_DIR")\" %command%"
