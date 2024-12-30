@@ -29,5 +29,5 @@ echo "please logout and login again"
 
 ## Update
 ```bash
-
+proton-anarchy-update.sh
 ```
