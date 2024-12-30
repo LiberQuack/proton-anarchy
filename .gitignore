@@ -1,1 +1,13 @@
-proton-data
+*.log
+*.cache
+*.cache.write
+*.ini
+
+############
+# Temporary
+############
+proton-data-old
+users
+
+/proton-data/
+!/proton-data/drive_c/users/
