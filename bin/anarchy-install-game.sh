@@ -24,9 +24,11 @@ GAME_NAME_SANITIZED=$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | sed -E 's
 DESTINATION="$(zenity --entry --title="Destination" --entry-text "$(dirname $ORIGINAL_PATH)/$GAME_NAME_SANITIZED"  2> /dev/null)"
 mkdir -p "$DESTINATION"
 
-echo "Creating symbolic link"
 GAME_LINK_DIR="/var/games/$GAME_NAME_SANITIZED"
-ln -sf "$DESTINATION" "$GAME_LINK_DIR"
+if [ ! -e "$GAME_LINK_DIR" ]; then
+    echo "Creating symbolic link"
+    ln -sf "$DESTINATION" "$GAME_LINK_DIR"
+fi
 
 PROTON_LINK="Z:$(echo "$GAME_LINK_DIR" | sed -E 's/\//\\/g')"
 echo "Proton destination is $PROTON_LINK"
