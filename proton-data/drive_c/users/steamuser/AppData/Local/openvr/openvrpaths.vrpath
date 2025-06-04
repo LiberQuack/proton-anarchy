@@ -1,8 +1,0 @@
-{
-   "config" : [ "V:\\.local\\share\\Steam\\config" ],
-   "external_drivers" : null,
-   "jsonid" : "vrpathreg",
-   "log" : [ "V:\\.local\\share\\Steam\\logs" ],
-   "runtime" : [ "C:\\vrclient\\", "C:\\vrclient" ],
-   "version" : 1
-}
