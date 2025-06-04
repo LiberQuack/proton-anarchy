@@ -40,7 +40,11 @@ echo "====== Launch script content ========="
 tee "$LAUNCH_SCRIPT_PATH" <<EOF
 #!/bin/bash
 $PROTON_PREFIX
-/var/games/proton-anarchy/bin/anarchy-run.sh "$EXECUTABLE"
+if ! command -v anarchy-run.sh >/dev/null 2>&1; then
+    echo "Error: anarchy-run.sh command not found in PATH"
+    exit 1
+fi
+anarchy-run.sh "$EXECUTABLE"
 EOF
 
 echo "======================================"
