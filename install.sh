@@ -4,7 +4,8 @@ set -e
 #################################
 # Setup dependencies
 #################################
-sudo pacman -S wl-clipboard xclip icoextract
+echo "Preparing to install dependencies (icoextract/wl-clipboard/git/...)"
+sudo pacman -Sy wl-clipboard xclip icoextract git
 yay -S steamtinkerlaunch-git
 
 ##############################
@@ -35,8 +36,16 @@ sudo chmod -R g+rwx /opt/games
 sudo chmod -R g+s /opt/games  # Set group sticky bit so new files inherit group
 echo "Permissions set for group 'proton-anarchy' on /opt/games"
 
-echo "IMPORTANT!!! Please logout/login or reboot for changes to take effect"
-
+# Setup proton-anarchy
+echo "Downloading proton-anarchy"
 mkdir -p ~/.local/src
 rm -rf ~/.local/src/proton-anarchy
-git clone https://github.com/LiberQuack/proton-anarchy.git ~/.local/src/proton-anarchy
+git clone https://github.com/LiberQuack/proton-anarchy.git ~/.local/src/proton-anarchy --depth=1
+
+echo "Adding ~/.local/src/proton-anarchy/bin to your PATH"
+mkdir -p ~/.config/environment.d
+cat <<'EOF' > ~/.config/environment.d/proton-anarchy.conf
+PATH=${PATH}:~/.local/src/proton-anarchy/bin
+EOF
+
+echo "IMPORTANT!!! Please logout/login or reboot for changes to take effect"
