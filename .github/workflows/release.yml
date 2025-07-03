@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: List all artifacts for this workflow run
         uses: actions/github-script@v7
         with:
@@ -46,9 +49,6 @@ jobs:
           repository: ${{ github.repository }}
           run-id: ${{ github.event.workflow_run.id }}
           path: ./dist
-
-      - name: Checkout code
-        uses: actions/checkout@v4
 
       - name: Get version from Cargo.toml and append run number
         id: get_version
