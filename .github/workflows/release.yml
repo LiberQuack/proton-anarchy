@@ -50,12 +50,18 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           path: ./dist
 
+      - name: List contents
+        run: ls -lah .github/workflows
+
       - name: Get version from Cargo.toml and append run number
         id: get_version
         run: |
           VERSION=$(grep '^version' Cargo.toml | head -n1 | awk -F\" '{print $2}')
           VERSION_WITH_RUN="${VERSION}-${GITHUB_RUN_NUMBER}"
           echo "version=$VERSION_WITH_RUN" >> $GITHUB_OUTPUT
+
+      - name: List contents
+        run: ls -lah .github/workflows
 
       - name: Create Pre-Release
         uses: softprops/action-gh-release@v2
