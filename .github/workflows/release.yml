@@ -38,10 +38,13 @@ jobs:
             }
         id: find_artifact
 
-      - name: Download artifact file
+      - name: Download artifact file by ID
         uses: actions/download-artifact@v4
         with:
-          name: proton-anarchy
+          artifact-ids: ${{ steps.find_artifact.outputs.artifact_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ github.event.workflow_run.id }}
           path: ./dist
 
       - name: Checkout code
