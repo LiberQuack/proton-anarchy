@@ -1,16 +1,40 @@
-name: Build and Release
+name: Release
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Build & Upload Artifact"]
+    types:
+      - completed
 
 jobs:
-  build:
-    name: Build (Release)
+  release:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
+      - name: Download build artifact
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run_id = ${{ github.event.workflow_run.id }};
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id,
+            });
+            const matchArtifact = artifacts.data.artifacts.find(a => a.name === "proton-anarchy");
+            if (!matchArtifact) {
+              core.setFailed("Artifact not found");
+            }
+            core.setOutput("artifact_id", matchArtifact.id);
+        id: find_artifact
+
+      - name: Download artifact file
+        uses: actions/download-artifact@v4
+        with:
+          name: proton-anarchy
+          path: ./dist
+
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -20,39 +44,6 @@ jobs:
           toolchain: stable
           override: true
 
-      - name: Cache cargo registry
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cargo/registry
-            ~/.cargo/git
-            target
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-
-      - name: Build release binary
-        run: cargo build --release
-
-      - name: Upload release binary
-        uses: actions/upload-artifact@v4
-        with:
-          name: proton-anarchy
-          path: target/release/proton-anarchy
-
-  release:
-    name: Create GitHub Release
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: proton-anarchy
-          path: ./dist
-
       - name: Get version from Cargo.toml and append run number
         id: get_version
         run: |
@@ -60,7 +51,7 @@ jobs:
           VERSION_WITH_RUN="${VERSION}-${GITHUB_RUN_NUMBER}"
           echo "version=$VERSION_WITH_RUN" >> $GITHUB_OUTPUT
 
-      - name: Create Release
+      - name: Create Pre-Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
