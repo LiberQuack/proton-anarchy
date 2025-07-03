@@ -1,13 +1,9 @@
-proton-anarchy/.github/workflows/build.yml
-```
-```proton-anarchy/.github/workflows/build.yml#L1-38
 name: Build & Upload Artifact
 
 on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   build:
