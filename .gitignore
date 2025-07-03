@@ -4,6 +4,13 @@
 *.cache.write
 *.ini
 
+# GitHub Actions
+
+# Rust/Cargo
+/target
+**/*.rs.bk
+Cargo.lock.bk
+
 proton-data/*
 !/proton-data/drive_c
 
