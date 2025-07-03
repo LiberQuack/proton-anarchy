@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download build artifact
+      - name: Debug: List all artifacts for this workflow run
         uses: actions/github-script@v7
         with:
           script: |
@@ -22,11 +22,20 @@ jobs:
               repo: context.repo.repo,
               run_id,
             });
+            console.log("Artifacts found:", artifacts.data.artifacts.map(a => ({
+              id: a.id,
+              name: a.name,
+              size_in_bytes: a.size_in_bytes,
+              expired: a.expired,
+              archive_download_url: a.archive_download_url
+            })));
             const matchArtifact = artifacts.data.artifacts.find(a => a.name === "proton-anarchy");
             if (!matchArtifact) {
               core.setFailed("Artifact not found");
+            } else {
+              console.log("Matched artifact:", matchArtifact);
+              core.setOutput("artifact_id", matchArtifact.id);
             }
-            core.setOutput("artifact_id", matchArtifact.id);
         id: find_artifact
 
       - name: Download artifact file
