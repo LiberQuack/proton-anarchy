@@ -6,7 +6,7 @@ set -e
 #################
 export HOME="$(realpath ~)"
 export ANARCHY_DIR="$HOME/.proton-anarchy"
-export PROTON_EXECUTABLE="/usr/share/steam/compatibilitytools.d/proton-cachyos/proton"
+export PROTON_EXECUTABLE="/home/quack/.local/share/Steam/compatibilitytools.d/proton-cachyos-dxvk-gplasync/proton"
 echo "PROTON_EXECUTABLE: $PROTON_EXECUTABLE"
 
 #####################

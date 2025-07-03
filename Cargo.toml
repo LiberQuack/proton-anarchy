@@ -1,0 +1,25 @@
+[package]
+name = "proton-anarchy"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A CLI utility to prepare Proton prefixes and install non-Steam games, ported from Bash scripts."
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+pathdiff = "0.2"
+clap = { version = "4.4", features = [
+    "derive",
+] } # Command-line argument parsing library
+dialoguer = "0.10" # Interactive CLI prompts (user input, confirmation, etc.)
+anyhow = "1.0" # Flexible error handling for easy error propagation
+rfd = "0.14"
+regex = "1.11.1" # Native file/folder dialogs for graphical selection
+
+
+[build-dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true

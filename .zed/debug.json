@@ -1,0 +1,28 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "label": "Debug install game",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/target/debug/proton-anarchy",
+    "adapter": "CodeLLDB",
+    "args": ["install-game"],
+    "build": {
+      "command": "cargo",
+      "args": ["build"]
+    }
+  },
+  {
+    "label": "Debug add shortcut",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/target/debug/proton-anarchy",
+    "adapter": "CodeLLDB",
+    "args": ["add-shortcut"],
+    "build": {
+      "command": "cargo",
+      "args": ["build"]
+    }
+  }
+]
