@@ -53,11 +53,12 @@ jobs:
           name: proton-anarchy
           path: ./dist
 
-      - name: Get version from Cargo.toml
+      - name: Get version from Cargo.toml and append run number
         id: get_version
         run: |
           VERSION=$(grep '^version' Cargo.toml | head -n1 | awk -F\" '{print $2}')
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          VERSION_WITH_RUN="${VERSION}-${GITHUB_RUN_NUMBER}"
+          echo "version=$VERSION_WITH_RUN" >> $GITHUB_OUTPUT
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
