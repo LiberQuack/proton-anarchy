@@ -51,7 +51,7 @@ jobs:
           path: ./dist
 
       - name: List contents
-        run: ls -lah .github/workflows
+        run: ls -lah ./; ls -lah dist;
 
       - name: Get version from Cargo.toml and append run number
         id: get_version
@@ -61,7 +61,7 @@ jobs:
           echo "version=$VERSION_WITH_RUN" >> $GITHUB_OUTPUT
 
       - name: List contents
-        run: ls -lah .github/workflows
+        run: ls -lah ./; ls -lah dist;
 
       - name: Create Pre-Release
         uses: softprops/action-gh-release@v2
