@@ -68,7 +68,7 @@ jobs:
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
           name: Release v${{ steps.get_version.outputs.version }}
-          files: ./dist/proton-anarchy
+          files: dist/proton-anarchy
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
