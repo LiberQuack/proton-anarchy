@@ -61,14 +61,14 @@ jobs:
           echo "version=$VERSION_WITH_RUN" >> $GITHUB_OUTPUT
 
       - name: List contents
-        run: ls -lah ./; ls -lah dist;
+        run: ls -lah ./; ls -lah dist; ls -lah dist/proton-anarchy;
 
       - name: Create Pre-Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
           name: Release v${{ steps.get_version.outputs.version }}
-          files: dist/proton-anarchy
+          files: dist/proton-anarchy/proton-anarchy
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
